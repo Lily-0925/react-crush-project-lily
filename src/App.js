@@ -1,8 +1,10 @@
+import Header from './components/Header'
+
 function App() {
-  const name = "Lil";
+  // const name = "Lil";
   return (
     <div >
-      <h1>hello from {name}</h1>
+      <Header title="lalala"/>
     </div>
   );
 }
